@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import logoB from "../../assets/images/logo-b.png"
 import './index.scss'
 import { useEffect, useState } from 'react'
-import AnimatedLetters from '../AnimatedLatters'
+import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import Loader from 'react-loaders'
 

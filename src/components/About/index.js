@@ -1,6 +1,6 @@
 import './index.scss';
 import { useEffect, useState } from "react";
-import  AnimatedLatters  from "../AnimatedLatters";
+import  AnimatedLetters  from "../AnimatedLetters";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
@@ -18,7 +18,7 @@ const About = () => {
         <div className="container about-page">
             <div className="text-zone">
                 <h1>
-                    <AnimatedLatters strArray={['A','b','o','u','t',' ','m','e']} index={15} letterClass={letterClass}/>
+                    <AnimatedLetters strArray={['A','b','o','u','t',' ','m','e']} index={15} letterClass={letterClass}/>
                 </h1>   
                 
                 <p>I am Oumehdi Bilal, a sofware engineer student at school national of applied science </p>
